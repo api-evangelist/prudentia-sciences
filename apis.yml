@@ -1,8 +1,24 @@
 aid: prudentia-sciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prudentia-sciences.png
 name: Prudentia Sciences
-description: 'Prudentia Sciences is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Prudentia Sciences provides a scientific intelligence layer powering life-sciences
+  dealmaking. The platform unifies fragmented pharmaceutical and biotech data sources, applies
+  expert-developed evaluation frameworks, and applies AI trained on drug development so that pharma
+  companies, biotech firms, investors, and deal teams can assess pharmaceutical assets faster and
+  with more confidence during M&A and licensing transactions. Surfaced as a portfolio company of GV
+  (Google Ventures). No public API or developer surface was found during enrichment; the company
+  operates as a single-tenant, SOC 2-aligned SaaS platform.'
 url: https://raw.githubusercontent.com/api-evangelist/prudentia-sciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Pharmaceuticals
+- Biotech
+- Mergers and Acquisitions
+- Artificial Intelligence
+- Data
+- Due Diligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.prudentiasciences.com
+- type: About
+  url: https://www.prudentiasciences.com/about
+- type: TrustCenter
+  url: https://trust.prudentiasciences.com/
+- type: Compliance
+  url: https://trust.prudentiasciences.com/
+- type: PrivacyPolicy
+  url: https://www.prudentiasciences.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.prudentiasciences.com/legal/terms
+- type: DomainSecurity
+  url: security/prudentia-sciences-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

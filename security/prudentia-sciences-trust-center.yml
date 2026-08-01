@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+url: https://trust.prudentiasciences.com/
+platform: Vanta
+certifications:
+- SOC 2
+compliance_posture:
+- SOC II alignment
+- AWS-hosted infrastructure
+- single-tenant deployment
+- data encryption
+evidence:
+- source: https://trust.prudentiasciences.com/
+  keywords: [trust center, vanta]
+  note: Vanta-hosted trust center (og:image references app.vanta.com/doc)
+- source: https://www.prudentiasciences.com
+  keywords: [soc ii alignment, aws hosting, single-tenant deployment, data encryption]
+  note: security posture published on the company homepage
