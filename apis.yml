@@ -31,6 +31,9 @@ description: 'Prudentia Sciences provides a scientific intelligence layer poweri
   (Google Ventures). No public API or developer surface was found during enrichment; the company
   operates as a single-tenant, SOC 2-aligned SaaS platform.'
 url: https://raw.githubusercontent.com/api-evangelist/prudentia-sciences/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer surface was found during enrichment; the company operates as a single-tenant, SOC 2-aligned SaaS platform."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
